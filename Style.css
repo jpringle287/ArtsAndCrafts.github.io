@@ -1,0 +1,65 @@
+header .container img{
+    width:100%;
+    height: 150px;
+    object-fit:cover;
+    position:relative;
+    z-index:1;
+}
+
+header .container .header-text{
+    position:absolute;
+    top: 20%;;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:2;
+    text-align:center;
+}
+
+.header-text h1{
+    font-family:helvetica;
+    font: size 100px;
+    font-weight: bold;
+    color:khaki;
+}
+
+.Item h1{
+    font-family:helvetica;
+    font-size:32px;
+    font-weight: bold;
+    color:white;
+    background-color: mediumspringgreen;
+}
+
+
+.Item h2{
+    font-family:helvetica;
+    font-size:32px;
+    font-weight: bold;
+    color:white;
+    background-color: lightcoral;
+
+}
+
+.Item h3{
+    font-family:helvetica;
+    font-size:32px;
+    font-weight: bold;
+    color:white;
+    background-color: skyblue;
+}
+
+h2{
+    font-weight:bold;
+    font-size:14px;
+
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding:10px;
+    position:relative;
+    bottom:0;
+    width:100%;
+}
